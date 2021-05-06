@@ -413,6 +413,10 @@ body {
     cursor: pointer;
 }
 
+.sub-menu__item:hover {
+    box-shadow: 2px -2px 5px 0px #999;
+}
+
 .sleeping-menu {
     position: absolute;
     top: 100%;
@@ -831,6 +835,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.news-manufacturers__btn:hover {
+    background-color: #ffaf2d;
 }
 
 .recomendation {
@@ -1098,7 +1108,6 @@ body {
     margin: 0px 0px 25px 0px;
 }
 
-
 /* .footer__top-block-links div:hover {
     color: #ffaf2d;
 } */
@@ -1144,7 +1153,6 @@ body {
         transition: all 0.3s ease 0s;
     }
 }
-
 
 }
 
