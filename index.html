@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Столовая</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/8425a35637.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="page">
+            <div class="page__header header">
+                <div class="header__sup-menu ">
+                    <ul class="sup-menu ">
+                        <li><a class="sup-menu__link" href="#">Компания</a></li>
+                        <li><a class="sup-menu__link" href="#">Портфолио</a></li>
+                        <li><a class="sup-menu__link" href="#">Проектирование</a></li>
+                        <li><a class="sup-menu__link" href="#">Ресторанам</a></li>
+                        <li><a class="sup-menu__link" href="#">Застройщикам</a></li>
+                        <li><a class="sup-menu__link" href="#">Гос.заказчикам</a></li>
+                        <li><a class="sup-menu__link" href="#">Таблет-питание</a></li>
+                        <li><a class="sup-menu__link" href="#">Сервис</a></li>
+                        <li><a class="sup-menu__link" href="#">Контакты</a></li>
+                        <li class="sup-menu__copy">
+                            <ul class="emal-copy">
+                                <li><a class="sup-menu__letter" href="#"><i class="far fa-envelope"></i>
+                                        info@stolovay.ru </a></li>
+                                <button class="btn-copy">Скопировать</button>
+                            </ul>
+                        </li>
+                        <li class="sup-menu__phone">
+                            <a class="sup-menu__link" href="#"><i class="fas fa-phone-alt"></i> 8 495 790-72-05</a>
+                            <div class="sup-menu__phone-info">
+                                <div class="sup-menu__phone-wrapper">
+                                    <div class="sup-menu__phone-leftblock left-block">
+                                        <div class="left-block__top">
+                                            <div class="left-block__top-title">8 495 790-72-05</div>
+                                            <div class="left-block__top-text">Мы принимаем звонки без выходных.</div>
+                                        </div>
+                                        <div class="left-block__bot">
+                                            <div class="left-block__bot-select">Выберите способ связи:</div>
+                                            <div class="left-block__bot-phone">
+                                                <i class="fas fa-phone-alt"></i>
+                                                <div class="phone__text">Мобильный</div>
+                                            </div>
+                                            <div class="left-block__bot-phone">
+                                                <i class="fab fa-viber"></i>
+                                                <div class="phone__text">Viber</div>
+                                            </div>
+                                            <div class="left-block__bot-phone">
+                                                <i class="fab fa-telegram"></i>
+                                                <div class="phone__text">Telegram</div>
+                                            </div>
+                                            <div class="left-block__bot-phone">
+                                                <i class="fab fa-whatsapp"></i>
+                                                <div class="phone__text">Whatsapp</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sup-menu__phone-rightblock right-block">
+                                        <div class="right-block__top">
+                                            <div class="right-block__top-title">Обратный звонок:</div>
+                                            <div class="right-block__top-text">Мы перезвоним вам в течении часа
+                                            </div>
+                                        </div>
+                                        <div class="right-block__middle">
+                                            <label class="right-block__middle-label" for="name">Имя:</label>
+                                            <input class="right-block__middle-input" type="text" id="name">
+                                            <label class="right-block__middle-label" for="phone">Телефон:</label>
+                                            <input class="right-block__middle-input" type="text" id="phone">
+                                        </div>
+                                        <div class="right-block__btn">Отправить</div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__main-menu">
+                    <div class="main-menu">
+                        <div class="logo-part">
+                            <a href="">
+                                <div class="logo-part__logo">
+                                    <img src="./img/logo.png" alt="">
+                                </div>
+                                <div class="logo-part__site-name">Столовая.РУ</div>
+                            </a>
+
+                        </div>
+                        <div class="search-part">
+                            <div class="select ">
+                                <div class="select__header">
+                                    <span class="select__current">Все</span>
+                                    <div class="select__icon"><i class="fas fa-caret-down "></i></div>
+                                </div>
+                                <div class="select__body">
+                                    <div class="select__сhoice">Выберете категорию:</div>
+                                    <div class="select__item">Тепловое</div>
+                                    <div class="select__item">Холодильное</div>
+                                    <div class="select__item">Электромеханическое</div>
+                                    <div class="select__item">Посудомоечное</div>
+                                    <div class="select__item">Барное</div>
+                                    <div class="select__item">Хлебопекарное</div>
+                                    <div class="select__item">Линии раздачи</div>
+                                    <div class="select__item">Нейтральное</div>
+                                    <div class="select__item">Для фаст фуда</div>
+                                    <div class="select__item">Для залов</div>
+                                    <div class="select__item">Весовое</div>
+                                </div>
+                            </div>
+                            <input type="text" class="search-part__search">
+                            <button class="search-part__btn"><i class="fas fa-search"></i></button>
+                        </div>
+                        <div class="portal">
+                            <div class="portal__wrapper">
+                                <div class="portal__icon">
+                                    <img src="./img/portalpostavschikov.png" alt="">
+                                </div>
+                                <div class="portal__text">Мы на портале поставщиков</div>
+                            </div>
+
+
+                        </div>
+                        <div class="cart">
+                            <div class="cart__counter">
+                                <div class="cart__count">12</div>
+                                <div class="cart__icon"><i class="fas fa-shopping-cart fz-icon"></i></div>
+                            </div>
+                            <div class="cart__sum">
+                                <div class="cart__text">Сумма</div>
+                                <div class="cart__price">150000 руб</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__sub-menu">
+                    <div class="sub-menu">
+                        <div class="sub-menu__item item">
+                            <img src="./img/menu-teplovoe.png" alt="" class='item__img'>
+                            <div class="item__text">Тепловое</div>
+                        </div>
+                        <div class="sub-menu__item item">
+                            <img src="./img/menu-holod.png" alt="" class='item__img'>
+                            <div class="item__text">Холодильное</div>
+                        </div>
+                        <div class="sub-menu__item item">
+                            <img src="./img/menu-electro-mechan.png" alt="" class='item__img'>
+                            <div class="item__text">Электромеханическое</div>
+                        </div>
+                        <div class="sub-menu__item item">
+                            <img src="./img/menu-posudamoech.png" alt="" class='item__img'>
+                            <div class="item__text">Посудомоечное</div>
+                        </div>
+                        <div class="sub-menu__item item">
+                            <img src="./img/menu-hlebopec.png" alt="" class='item__img'>
+                            <div class="item__text">Хлебопекарное</div>
+                        </div>
+                        <div class="sub-menu__item item">
+                            <img src="./img/menu-line-razdachi.png" alt="" class='item__img'>
+                            <div class="item__text">Линии раздачи</div>
+                        </div>
+                        <div class="sub-menu__item item">
+                            <img src="./img/menu-naitral.png" alt="" class='item__img'>
+                            <div class="item__text">Нейтральное</div>
+                        </div>
+                        <div class="sub-menu__item item">
+                            <img src="./img/menu-fastfood.png" alt="" class='item__img'>
+                            <div class="item__text">Для фаст фуда</div>
+                        </div>
+                        <div class="sub-menu__item item">
+                            <img src="./img/menu-for zalov.png" alt="" class='item__img'>
+                            <div class="item__text">Для залов</div>
+                        </div>
+                        <div class="sub-menu__item item">
+                            <img src="./img/menu-vesovoe.png" alt="" class='item__img'>
+                            <div class="item__text">Вспомогательное</div>
+                        </div>
+                        <div class="sub-menu__item item">
+                            <img src="./img/menu-barnoe.png" alt="" class='item__img'>
+                            <div class="item__text">Для магазинов</div>
+                        </div>
+                    </div>
+                    <div class="sleeping-menu">
+                        <div class="sleeping-menu__categories">
+                            <div class="categories__block">
+                                <div class="categories__wrapper">
+                                    <div class="category__block">
+                                        <div class="category">Пароконвектоматы</div>
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="categories__block">
+                                <div class="categories__wrapper">
+                                    <div class="category__block">
+                                        <div class="category">Конвекционные печи</div>
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="categories__block">
+                                <div class="categories__wrapper">
+                                    <div class="category__block">
+                                        <div class="category">Плиты</div>
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="categories__block">
+                                <div class="categories__wrapper">
+                                    <div class="category__block">
+                                        <div class="category">Электросковороды</div>
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="categories__block">
+                                <div class="categories__wrapper">
+                                    <div class="category__block">
+                                        <div class="category">Шкафы жарочные</div>
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="categories__block">
+                                <div class="categories__wrapper">
+                                    <div class="category__block">
+                                        <div class="category">Котлы</div>
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="categories__block">
+                                <div class="categories__wrapper">
+                                    <div class="category__block">
+                                        <div class="category">Фритюрницы</div>
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="categories__block">
+                                <div class="categories__wrapper">
+                                    <div class="category__block">
+                                        <div class="category">Жарочные поверхности</div>
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="categories__block">
+                                <div class="categories__wrapper">
+                                    <div class="category__block">
+                                        <div class="category">Кипятильники</div>
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="categories__block">
+                                <div class="categories__wrapper">
+                                    <div class="category__block">
+                                        <div class="category">Водонагреватели</div>
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="categories__block">
+                                <div class="categories__wrapper">
+                                    <div class="category__block">
+                                        <div class="category">Столы тепловые</div>
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="categories__block">
+                                <div class="categories__wrapper">
+                                    <div class="category__block">
+                                        <div class="category">Мармиты</div>
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="categories__block">
+                                <div class="categories__wrapper">
+                                    <div class="category__block">
+                                        <div class="category">Тостеры</div>
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sleeping-menu__brands brands">
+                            <div class="brands__top-block">
+                                <div>Бойлерные</div>
+                                <div>Инжекторные</div>
+                                <div>Все сразу</div>
+                            </div>
+                            <div class="brands__main-block">
+                                <div>Бренды</div>
+                                <div>Abat</div>
+                                <div>Unox</div>
+                                <div>Проммаш</div>
+                                <div>Atesy</div>
+                                <div>Rational</div>
+                            </div>
+                            <div class="brands__bot-block">
+                                <div> Страны</div>
+                                <div>Испания</div>
+                                <div>Италия</div>
+                                <div>Германия</div>
+                                <div>Турция</div>
+                            </div>
+                        </div>
+                        <div class="sleeping-menu__image image-block">
+                            <img class="image-block__img" src="./img/holodilnik.png" alt=" ">
+                            <div class="image-block__title">Пароконвектоматы</div>
+                            <div class="image-block__btn">Все сразу</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__detailed-menu ">
+                    <div class="detailed-menu ">
+                        <div class="detailed-menu__wrapper ">
+                            <div class="detailed-menu__categories categories ">
+                                <div class="categories__title ">Целевые предложения</div>
+                                <div class="categories__block ">
+                                    <div class="categories__wrapper ">
+                                        <div class="category__block ">
+                                            <div class="category ">Кафе, барам, ресторанам</div>
+                                            <i class="fas fa-arrow-right "></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="categories__block ">
+                                    <div class="categories__wrapper ">
+                                        <div class="category__block ">
+                                            <div class="category ">Дестким садам и школам</div>
+                                            <i class="fas fa-arrow-right "></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="categories__block ">
+                                    <div class="categories__wrapper ">
+                                        <div class="category__block ">
+                                            <div class="category ">Таблет-питание</div>
+                                            <i class="fas fa-arrow-right "></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="categories__block ">
+                                    <div class="categories__wrapper ">
+                                        <div class="category__block ">
+                                            <div class="category ">Для столовых</div>
+                                            <i class="fas fa-arrow-right "></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="categories__block ">
+                                    <div class="categories__wrapper ">
+                                        <div class="category__block ">
+                                            <div class="category ">Для пищеблоков</div>
+                                            <i class="fas fa-arrow-right "></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="categories__block ">
+                                    <div class="categories__wrapper ">
+                                        <div class="category__block ">
+                                            <div class="category ">Государственным заказкам</div>
+                                            <i class="fas fa-arrow-right "></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="categories__block ">
+                                    <div class="categories__wrapper ">
+                                        <div class="category__block ">
+                                            <div class="category ">Для магазинов
+                                            </div>
+                                            <i class="fas fa-arrow-right "></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="categories__block ">
+                                    <div class="categories__wrapper ">
+                                        <div class="category__block ">
+                                            <div class="category ">Для войсковых частей</div>
+                                            <i class="fas fa-arrow-right "></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="categories__block borderzero ">
+                                    <div class="categories__wrapper ">
+                                        <div class="category__block ">
+                                            <div class="category ">Все предложения</div>
+                                            <i class="fas fa-arrow-right "></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="detailed-menu__slider ">
+
+
+                            </div>
+                            <div class="detailed-menu__sale sale ">
+                                <div class="sale__block ">
+                                    <div class="sale__img ">
+                                        <img src="./img/giftbox.png " alt=" ">
+                                    </div>
+                                    <div class="sale__text ">
+                                        <div class="sele__sup-title ">Самые низкие цены</div>
+                                        <div class="sele__sub-title ">Распродажа</div>
+                                    </div>
+                                    <div class="sale__link ">Каталог распродаж ></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="detailed-menu__partners partners ">
+                            <div class="partners__wrapper ">
+                                <img src="./img/abat.png " alt=" ">
+                                <img src="./img/atesy.png " alt=" ">
+                                <img src="./img/hicold.png " alt=" ">
+                                <img src="./img/rational.png " alt=" ">
+                                <img src="./img/simeco.png " alt=" ">
+                                <div class="partners__link ">Все пренды</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <main class="news">
+                <div class="news__container">
+                    <section class="news-manufacturers">
+                        <div class="news-manufacturers__title">Новости производителей</div>
+                        <div class="news-manufacturers__main-block manufacturers-main-block">
+                            <div class="manufacturers-main-block__left main-block-left">
+                                <img src="./img/image-news_leftblock.png" alt="">
+                                <div class="main-block-left__date">
+                                    <div>Abat</div>
+                                    <div>22.06.17</div>
+                                </div>
+                                <div class="main-block-left__title">Новый разборный ротационный пекарский шкаф РПШ-18-8-6МР
+                                </div>
+                                <div class="main-block-left__text">Новый разборный ротационный пекарский шкаф РПШ-18-8-6МР: в комплекте тележка-шпилька ТШГ-18 на 18 уровней 600х800 мм вместимость тележки-шпильки - 135 хлебных форм №7 инжекционный тип парообразования разборная конструкция
+                                    увеличенное стекло двери. Память на 110 программ (до 4-ех этапов в каждой программе) USB-порт. Таймер до 10 ч Регулировка влажности от 0 до 100%. 5 скоро</div>
+                            </div>
+                            <div class="manufacturers-main-block__right main-block-right">
+                                <div class="main-block-right__new">
+                                    <img src="./img/image-rightblock1.png" alt="">
+                                    <div class="main-block-right-info">
+                                        <div class="main-block-left__date">
+                                            <div>Abat</div>
+                                            <div>22.06.17</div>
+                                        </div>
+                                        <div class="main-block-left__title">Повышение энергоэффективности туннельных посудомоечных машин МПТ торговой марки Abat</div>
+                                        <div class="main-block-left__text">С целью снижения нагрузки на электрическую сеть и для повышения энергоэффективности изделий с 1 июня 2017 года был изменен алгоритм работы туннельных посудомоечных машин МПТ торговой марки Abat всех моделей... </div>
+                                    </div>
+                                </div>
+                                <div class="main-block-right__new">
+                                    <img src="./img/image-rightblock2.png" alt="">
+                                    <div class="main-block-right-info">
+                                        <div class="main-block-left__date">
+                                            <div>Abat</div>
+                                            <div>22.06.17</div>
+                                        </div>
+                                        <div class="main-block-left__title">Повышение энергоэффективности туннельных посудомоечных машин МПТ торговой марки Abat</div>
+                                        <div class="main-block-left__text">С целью снижения нагрузки на электрическую сеть и для повышения энергоэффективности изделий с 1 июня 2017 года был изменен алгоритм работы </div>
+                                    </div>
+                                </div>
+                                <div class="main-block-right__new">
+                                    <img src="./img/image-rightblock1.png" alt="">
+                                    <div class="main-block-right-info">
+                                        <div class="main-block-left__date">
+                                            <div>Abat</div>
+                                            <div>22.06.17</div>
+                                        </div>
+                                        <div class="main-block-left__title">Повышение энергоэффективности туннельных посудомоечных машин МПТ торговой марки Abat</div>
+                                        <div class="main-block-left__text">С целью снижения нагрузки на электрическую сеть и для повышения энергоэффективности изделий с 1 июня 2017 года был изменен алгоритм работы туннельных посудомоечных машин МПТ торговой марки Abat всех моделей...</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="news-manufacturers__btn">Все новости</div>
+                    </section>
+                    <section class="recomendation">
+                        <div class="recomendation__wrapper">
+                            <div class="recomendation__title">Рекомендуем</div>
+                            <div class="recomendation__text">В этих разделах вы можете получить подробную информацию о пищевом оборудовании для столовых, ресторанов и кафе ведущих производителей.</div>
+                        </div>
+                    </section>
+                    <section class="equipment">
+                        <div class="parokonvectomati">
+                            <div class="parokonvectomati__top-block">
+                                <div class="parokonvectomati__sup-title">Rational</div>
+                                <div class="parokonvectomati__title">Пароконвектоматы</div>
+                                <div class="parokonvectomati__text">Педантичность и преданность своему делу делает продукцию Rational идеальной для тех, кто ищет надежность и долговечность.</div>
+                            </div>
+                            <img class="parokonvectomati__img" src="./img/parokonvectomati-pational.png" alt="">
+                        </div>
+                        <div class="heat-equipment">
+                            <div class="heat-equipment__top-block">
+                                <img src="./img/teplovoe-oborud.png" alt="">
+                                <div class="heat-equipment__right-block">
+                                    <div class="heat-equipment__sup-title">Abat</div>
+                                    <div class="heat-equipment__title">Тепловое оборудование
+                                    </div>
+                                    <div class="heat-equipment__text">Более 55 лет успешно работает на рынке торгово-технологического оборудования, по праву занимая лидирующее положение в данном сегменте.</div>
+                                </div>
+                            </div>
+                            <div class="heat-equipment__bot-block">
+                                <div class="heat-equipment__right-block">
+                                    <div class="heat-equipment__sup-title _color-black">hicold</div>
+                                    <div class="heat-equipment__title _color-black">Холодильные столы
+                                    </div>
+                                    <div class="heat-equipment__text _color-black">Многофункциональность оборудования позволяет оптимизировать пространство на кухне, сделать работу персонала максимально удобной и эффективной. </div>
+                                </div>
+                                <img src="./img/hicoldoborud.png" alt="">
+                            </div>
+                        </div>
+                </div>
+        </div>
+        </section>
+        <section class="infomation">
+            <div class="infomation__suggestions suggestions">
+                <div class="suggestions__title">Комплексные решения оснащения столовых и кафе</div>
+                <div class="suggestions__text">Компания предлагает комплексное оснащение столовых, ресторанов, кафе и баров в Москве. Наши услуги построены по принципу полного цикла обслуживания предприятий общепита и бизнеса HoReCa. Иными словами, мы предлагаем проектирование «под
+                    ключ» и постгарантийное обслуживание. География работы компании охватывает всю страну. При этом в каждом регионе мы готовы предложить демократичные цены на профессиональное технологическое оборудование для столовой и оптимальные решения
+                    с точки зрения эффективности бизнеса, приемлемым уровнем производительности в условиях ограниченного бюджета.
+                </div>
+                <div class="suggestions__title">Что мы предлагаем</div>
+                <div class="suggestions__text">разработку технологического проекта кухни и производственной линии, дизайна ресторанного интерьера; составление меню согласно концепции и оснащения бара (кафе, столовой); подбор посуды, текстиля под общий стиль; профессиональное оборудование
+                    для кафе, бара и ресторана, большой выбор современных моделей; доставку в любой регион РФ; монтажные и пуско-наладочные работы; автоматизацию производственного процесса, что позволяет определённое оборудование для бара; экспертную
+                    поддержку бизнеса; гарантию на обслуживание, сервисное сопровождение выполненных нами проектов. «Диалог» сотрудничает с ведущими мировыми брендами, поэтому имеет возможность предложить каждому клиенту профессиональное барное оборудование
+                    и индивидуальное решение на его основе.</div>
+                <div class="suggestions__btn">+</div>
+            </div>
+            <div class="infomation__about-company about-company">
+                <img src="./img/biglogo.png" alt="" width="150px" height="150px">
+                <div class="about-company__top-block">
+                    <div>Столовая.РУ</div>
+                    <div>создание оптимальных пищеблоков</div>
+                </div>
+                <div class="about-company__main-block">
+                    <div>Группа компаний</div>
+                    <div>Показатели:</div>
+                </div>
+                <div class="about-company__bot-block">
+                    <p>На рынке: 5 лет</p>
+                    <p>Объем контрактов: 4 млрд.р.</p>
+                    <p>Количество контрактов: 620</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="footer__top-wrapper">
+                <div class="footer__top-block">
+                    <div class="footer__top-block-title">
+                        Информация
+                    </div>
+                    <div class="footer__top-block-links">
+                        <a href="">Компания</a>
+                        <a href="">Портфолио</a>
+                        <a href="">Проектирование</a>
+                        <a href="">Ресторанам</a>
+                        <a href="">Застройщикам</a>
+                        <a href="">Гос.заказкам</a>
+                        <a href="">Таблет-питание</a>
+                        <a href="">Сервис</a>
+                        <a href="">Новости</a>
+                        <a href="">Контакты</a>
+                    </div>
+                </div>
+                <div class="footer__top-block">
+                    <div class="footer__top-block-title">
+                        Оборудование
+                    </div>
+                    <div class="footer__top-block-links">
+                        <a href="">Тепловое</a>
+                        <a href="">Холодильное</a>
+                        <a href="">Электромеханическое</a>
+                        <a href="">Посудомоечное</a>
+                        <a href="">Барное</a>
+                        <a href="">Хлебопекарное</a>
+                        <a href="">Линии раздачи</a>
+                        <a href="">Нейтральное</a>
+                        <a href="">Для фаст фуда</a>
+                        <a href="">Для залов</a>
+                        <a href="">Весовое</a>
+                    </div>
+                </div>
+                <div class="footer__top-block">
+                    <div class="footer__top-block-title">
+                        Предложения
+                    </div>
+                    <div class="footer__top-block-links">
+                        <a href="">Кафе,барам,ресторанам</a>
+                        <a href="">Дестким садам и школам/a>
+                            <a href="">Таблет-питание</a>
+                        <a href="">Для кондитерских</a>
+                        <a href="">Для пиццерий</a>
+                        <a href="">Для магазинов</a>
+                        <a href="">Для воинских частей</a>
+                        <a href="">Все предложения</a>
+                    </div>
+                </div>
+                <div class="footer__top-block">
+                    <div class="footer__top-block-title">
+                        Контакты
+                    </div>
+                    <div class="footer__top-block-links">
+                        <div>
+                            <p>8 495 150-31-71</p>
+                            <p> 8 800 500 43 44</p>
+                            <p>звонок беспланый</p>
+                        </div>
+                        <div>
+                            <p>Пн-Пт</p>
+                            <p>09:00 до 18:00</p>
+                        </div>
+                        <div>
+                            <p>com@stolovay.ru</p>
+                            <p>info@stolovay.ru</p>
+                        </div>
+                        <div>
+                            <p>111524, Москва,</p>
+                            <p>Рязанский проспект 24к2</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bot">
+            <div class="footer__bot-wrapper">
+                <div class="footer__bot-left-block">
+                    <img src="./img/logo.png" alt="">
+                    <div class="footer__bot-sitename">Столовая.РУ</div>
+                </div>
+                <div class="footer__bot-right-block">Сайт разработан NTI-systems</div>
+            </div>
+        </div>
+    </footer>
+    </div>
+
+
+    </div>
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js "></script>
+    <script src="./js/script.js "></script>
+
+</body>
+
+</html>
+
+</html>
