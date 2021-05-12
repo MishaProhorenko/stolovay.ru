@@ -47,7 +47,9 @@ copy.addEventListener('click', closeBtnCopy);
 
 
 //Slider Swiper
-new Swiper('.detailed-menu__slider-wrapper', {
+let slider = document.querySelector('.swiper-container')
+let swiper = new Swiper(slider, {
+    slidesPerVeiw: 1,
     pagination: {
         el: '.swiper-pagination',
         //Буллеты
