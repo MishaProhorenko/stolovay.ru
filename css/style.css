@@ -319,6 +319,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 8.7%;
+    cursor: pointer;
 }
 
 .portal__wrapper {
@@ -731,7 +732,7 @@ body {
 .detailed-menu__slider {
     width: 58.19%;
     height: 100%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     background-color: #232323;
     display: flex;
     justify-content: center;
@@ -747,10 +748,75 @@ body {
 .slider__wrapper {
     width: 100%;
     height: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.swiper-pagination {}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-wrapper {}
+
+.swiper-slide {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider__wrapper .swiper-pagination-bullet {
+    margin: 0 11px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #ffffff;
+    /* background-color: #ffff; */
+    /* opacity: 1; */
+}
+
+.slider__wrapper .swiper-pagination-bullet-active {
+    background-color: #ffff;
+}
+
+.slider__slide {}
+
+.slider__sup-title {
+    color: #777777;
+}
+
+.slider__title {
+    line-height: 42px;
+}
+
+.slider__title span:first-child {
+    color: #f3f1f1;
+    font-size: 38px;
+    display: block;
+    font-family: 'SFUIDisplay-Light';
+    padding-top: 74px;
+}
+
+.slider__title span:last-child {
+    font-size: 18px;
+    color: #f3f1f1;
+    font-family: 'SFUIDisplay-Light';
+}
+
+.slider__btn {
+    width: 129px;
+    height: 35px;
+    color: #fff;
+    border-radius: 18px;
+    background-color: #ffaf2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 66px 0px 0px 0px;
+    ;
+}
 
 .news {
     margin: 174px 0px 0px 0px;

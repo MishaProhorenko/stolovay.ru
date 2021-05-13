@@ -28,7 +28,6 @@ select();
 //Выпадающее меню
 
 
-
 // Кнопка скопировать
 
 let email = document.querySelector('.sup-menu__letter');
@@ -74,6 +73,6 @@ let swiper = new Swiper(slider, {
         sensitvity: 1,
         //Класс объекта на котором
         //будетсрабатывать прокрутка мышью
-        eventsTarget: ".image-slider"
+        eventsTarget: ".swiper-slide"
     },
 });
